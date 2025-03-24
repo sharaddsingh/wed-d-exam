@@ -19,6 +19,15 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.bundle.js">
     <style type="text/css">
         @media screen and (orientation: landscape) {
+
+            #images{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                
+            }
+     
             #cardss{
                 display: flex;
                 flex-direction: row;
@@ -57,6 +66,20 @@
 
         @media screen and (orientation: portrait)
         {
+            img{
+                margin-top: 10px;
+                
+            }
+
+            #images{
+                display: flex;
+                flex-direction: column;
+         
+                margin-top: 50px;
+                margin-bottom: 50px;
+                align-items: center;
+            }
+
             #cardss{
                display: flex;
                flex-direction: column;
@@ -85,7 +108,9 @@
             margin: 10px;
             font-weight: bold;
         }
-
+        img{
+                border-radius: 10px;
+            }
     </style>
 </head>
 
@@ -149,6 +174,14 @@
 
 
     </header>
+
+    <div id="images">
+
+        <img src="pic5.png" alt=""  width="250px" height="100px">
+        <img src="pic6.png" alt=""  width="250px" height="100px">
+        <img src="pic7.png" alt=""  width="250px" height="100px">
+        <img src="pic8.png" alt=""  width="250px" height="100px">
+    </div>
 <div id="c">
     <h1>
         Most popular courses <br>
