@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.bundle.js">
     <style type="text/css">
         @media screen and (orientation: landscape) {
+            #cardss{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 15px;
+            }
 
             footer {
                 display: grid;
@@ -49,6 +55,18 @@
             }
         }
 
+        @media screen and (orientation: portrait)
+        {
+            #cardss{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+             
+            }
+            .yooo {
+                font-size: 40px;
+            font-weight: bold;}
+            }
         .yoo {
             font-size: 20px;
             font-weight: bold;
@@ -67,6 +85,7 @@
             margin: 10px;
             font-weight: bold;
         }
+
     </style>
 </head>
 
@@ -142,9 +161,9 @@
 
 
     <main class="mt-3">
-        <div class="d-flex flex-row justify-content-between m-2">
+        <div  id="cardss" >
 
-            <div class="card" style="width: 18rem;">
+            <div class="card mb-3" style="width: 17rem; ">
                 <img src="pic1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -183,7 +202,7 @@
                 </div>
             </div>
           
-            <div class="card" style="width: 18rem;">
+            <div class="card mb-3" style="width: 17rem;">
                 <img src="pic2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -224,7 +243,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card mb-3" style="width: 17rem;">
                 <img src="pic3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -265,7 +284,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card mb-3" style="width: 17rem;">
                 <img src="pic4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
